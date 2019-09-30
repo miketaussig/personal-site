@@ -2,7 +2,27 @@
 
 .header {
   display: flex;
+  flex-direction: column;
   height: 320px;
   width: 100%;
-  background-color: blue;
+  background-color: rgba($color-quartz, .8);
+  border-radius: 5px;
+  box-shadow: 0 2px 3px .2;
+  justify-content: center;
+  align-items: center;
+  color: $color-opera-mauve;
+
+  &__title {
+    font-size: 12rem;
+    font-weight: 900;
+    &:hover {
+      color: $color-pomp-and-powder;
+      cursor: pointer;
+    }
+  }
+
+  &__subtitle {
+    font-size: 3rem;
+    font-weight: 700;
+  }
 }

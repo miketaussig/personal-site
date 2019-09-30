@@ -4,8 +4,8 @@ import './footer.styles.scss'
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <footer className="footer">
       
-    </div>
+    </footer>
   )
 }

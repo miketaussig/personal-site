@@ -3,17 +3,21 @@
 .section {
   display: flex;
   flex-direction: row;
-  background-color: gold;
-  height: 240px;
+  background-color: rgba($color-quartz, .8);
+  height: 400px;
   width: 100%;
   margin-top: 20px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  padding: 0 30px;
+  border-radius: 5px;
 
   &-middle {
     width: 50%;
-    height: 480px;
+    height: 700px;
+  }
+
+  &-light {
+    background-color: rgba($color-steel-teal, .8);
   }
 
 }
