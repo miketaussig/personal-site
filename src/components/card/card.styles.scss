@@ -1,8 +1,10 @@
+@import "../../variables";
+
 .card {
   display: flex;
   flex-direction: row;
   width: 20%;
   height: 80%;
-  background-color: turquoise;
+  background-color: $color-steel-teal;
   margin: 10px;
 }
